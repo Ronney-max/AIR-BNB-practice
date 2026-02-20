@@ -1,0 +1,8 @@
+{
+  "bookings": [],
+  "units": [
+    { "id": 1, "type": "Bedsitter", "pricePerDay": 50 },
+    { "id": 2, "type": "Executive Bedsitter", "pricePerDay": 80 },
+    { "id": 3, "type": "One Bedroom", "pricePerDay": 100 }
+  ]
+}
