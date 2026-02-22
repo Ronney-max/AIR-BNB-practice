@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color:goldenrod;
 }
 
 .logo {
@@ -38,5 +39,50 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #873636;
 }
+
+nav {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #873636;
+  font-weight: 500;
+  transition: all 0.3 ease;
+}
+
+nav a:hover {
+  color: black;
+  transform: scale(1.1);
+  border-bottom: 2px solid #ff385c;
+}
+
+button {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border:none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.convertprice-btn {
+  background-color:#873636;
+  color: coral;
+}
+
+.book-btn {
+  background-color: #131986c0;
+  color: white;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba (0,0,0,0.2);
+}
+

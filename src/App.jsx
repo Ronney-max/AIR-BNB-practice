@@ -8,6 +8,7 @@ import SettingsPage from '/src/components/SettingsPage.jsx';
 import Header from '/src/components/Header.jsx';
 import Footer from '/src/components/Footer.jsx';
 import axios from 'axios';
+import './App.css';
 
 // Root App component. Sets up routing and shared elements like Toaster.
 function App() {
